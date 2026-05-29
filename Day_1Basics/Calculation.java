@@ -24,9 +24,6 @@ public class Calculation {
             System.out.println("The div is " + (div));
             System.out.println("The remeinder is " + (remainder));
             sc.close();
-
-        
-        
     }
     
 }

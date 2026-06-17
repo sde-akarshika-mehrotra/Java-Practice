@@ -2,7 +2,7 @@ package Day_5PatternBased;
 
 import java.util.Scanner;
 
-public class StarTrianglePattern {
+public class MixTriangle {
 
     public static void main(String[] args) {
 
@@ -12,12 +12,16 @@ public class StarTrianglePattern {
 
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= i; j++) {
-                System.out.print("* ");
-            }
-            System.out.println();
-        }
+                if (i % 2 == 0) {
+                    System.out.print((char) (j + 64) + " ");
 
-        sc.close();
+                } else {
+                    System.out.print(j + " ");
+                }
+
+            }
+            System.out.println(" ");
+        }
     }
 
 }

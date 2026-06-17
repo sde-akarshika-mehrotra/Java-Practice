@@ -1,6 +1,8 @@
+package Day_5PatternBased;
+
 import java.util.Scanner;
 
-public class InvertedStarPattern {
+public class Char {
 
     public static void main(String[] args) {
 
@@ -8,13 +10,12 @@ public class InvertedStarPattern {
         System.out.print("Enter the number: ");
         int n = sc.nextInt();
 
-        for (int i = n; i >= 1; i--) {
-            for (int j = 1; j <= i; j++) {
-                System.out.print("*");
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= n; j++) {
+                System.out.print((char)(j+64) + " ");
             }
-            System.out.println();
+            System.out.println(" ");
         }
-
-        sc.close();
     }
 }
+

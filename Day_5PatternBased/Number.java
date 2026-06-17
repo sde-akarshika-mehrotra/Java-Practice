@@ -2,7 +2,7 @@ package Day_5PatternBased;
 
 import java.util.Scanner;
 
-public class StarTrianglePattern {
+public class Number {
 
     public static void main(String[] args) {
 
@@ -11,13 +11,10 @@ public class StarTrianglePattern {
         int n = sc.nextInt();
 
         for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= i; j++) {
-                System.out.print("* ");
+            for (int j = 1; j <= n; j++) {
+                System.out.print(j + " ");
             }
-            System.out.println();
+            System.out.println(" ");
         }
-
-        sc.close();
     }
-
 }

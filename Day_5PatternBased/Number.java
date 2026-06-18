@@ -16,5 +16,6 @@ public class Number {
             }
             System.out.println(" ");
         }
+        sc.close();
     }
 }

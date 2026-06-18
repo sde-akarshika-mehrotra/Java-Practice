@@ -21,5 +21,6 @@ public class Chars {
             }
             System.out.println(" ");
         }
+        sc.close();
     }
 }

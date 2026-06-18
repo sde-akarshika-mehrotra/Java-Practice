@@ -15,7 +15,7 @@ public class Bridge {
             System.out.print("* ");
         }
         System.out.println();
-        
+
         for (int i = 1; i <= n - 1; i++) {
 
             for (int j = 1; j <= n - i; j++) {
@@ -33,6 +33,7 @@ public class Bridge {
 
             System.out.println();
         }
+        sc.close();
     }
 
 }

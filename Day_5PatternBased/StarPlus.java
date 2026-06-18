@@ -9,11 +9,10 @@ public class StarPlus {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter valuwe of n: ");
         int n = sc.nextInt();
-     
 
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= n; j++) {
-                if (i == n/2+1 || j == n/2+1) {
+                if (i == n / 2 + 1 || j == n / 2 + 1) {
                     System.out.print("* ");
                 } else {
                     System.out.print("  ");
@@ -22,5 +21,6 @@ public class StarPlus {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

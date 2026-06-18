@@ -22,6 +22,7 @@ public class MixTriangle {
             }
             System.out.println(" ");
         }
+        sc.close();
     }
 
 }

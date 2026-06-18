@@ -2,7 +2,7 @@ package Day_5PatternBased;
 
 import java.util.Scanner;
 
-public class First {
+public class FirstPattern {
 
     public static void main(String[] args) {
 

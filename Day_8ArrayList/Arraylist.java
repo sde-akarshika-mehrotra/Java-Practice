@@ -18,7 +18,7 @@ public class Arraylist {
 
         System.out.println(arr);
 
-        int n = arr.size();
+     
 
         for (int elem : arr) {
             System.out.print(elem + " ");
